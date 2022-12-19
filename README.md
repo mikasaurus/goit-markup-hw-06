@@ -1,3 +1,3 @@
-# goit-markup-hw-05
+# goit-markup-hw-06
 
-3rd homework https://mikasaurus.github.io/goit-markup-hw-05/
+3rd homework https://mikasaurus.github.io/goit-markup-hw-06/

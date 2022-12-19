@@ -54,6 +54,39 @@
               <div class="modal-backdrop is-hidden" data-modal>
                 <div class="modal">
                   <button data-modal-close type="button" class="modal-button">X</button>
+                  <form>
+                    <h3 class="modal-header">Zostaw swoje dane w formularzu poniżej</h3>
+                    <div class="order-form">
+                      <label class="modal-label">
+                        Imię
+                        <input class="modal-input" type="name" name="name" autocomplete="on" />
+                      </label>
+                      <label class="modal-label">
+                        Telefon
+                        <input class="modal-input" type="tel" name="phone" autocomplete="on" />
+                      </label>
+                      <label class="modal-label">
+                        Email
+                        <input class="modal-input" type="email" name="email" autocomplete="on" />
+                      </label>
+                      <label class="modal-label">
+                        Feedback
+                        <textarea
+                          class="comment-box"
+                          name="comment"
+                          placeholder="Wprowadź tekst"
+                        ></textarea>
+                      </label>
+                      <label>
+                        <input class="checkbox" type="checkbox" name="terms" />
+                        <span class="terms"
+                          >Oświadczam iż akceptuję <a class="terms-link" href="#">Regulamin</a> i
+                          <a class="terms-link" href="#">Politykę Prywatności</a>.</span
+                        >
+                      </label>
+                    </div>
+                    <button class="modal-submit-button" type="submit">Wyślij</button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -383,6 +416,28 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div>
+          <h3 class="newsletter-header">Zapisz się do newslettera</h3>
+          <form>
+            <div class="newsletter-box">
+              <label>
+                <input
+                  type="email"
+                  name="email"
+                  class="email-newsletter"
+                  placeholder="E-mail"
+                  autocomplete="on"
+                />
+              </label>
+              <button class="newsletter-button" type="submit">
+                Zapisz się
+                <svg class="newsletter-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
